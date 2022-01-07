@@ -1,0 +1,27 @@
+{
+  "name": "zx-scripts",
+  "version": "1.0.0",
+  "description": "Collection of google/zx scripts",
+  "scripts": {
+    "build": "zx build/build.mjs",
+    "clean": "zx build/clean.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandu-io/zx-scripts.git"
+  },
+  "keywords": [],
+  "author": "Chandrasekhar Thotakura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandu-io/zx-scripts/issues"
+  },
+  "homepage": "https://github.com/chandu-io/zx-scripts#readme",
+  "dependencies": {
+    "zx": "7.0.7"
+  },
+  "engines": {
+    "node": ">=16.3.x",
+    "npm": ">=8.1.x"
+  }
+}

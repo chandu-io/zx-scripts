@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["zx/globals"]
+  },
+  "include": ["src/**/*", "build/**/*"],
+  "exclude": ["node_modules", "bin/**/*"]
+}
